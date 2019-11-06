@@ -1,0 +1,141 @@
+Writing diagnostic record to /imaging/hp02/TGB/matlab_scripts/osl_debug_log.txt
+OSL DEBUG LOG
+Date: 2019-08-06 10:10:32
+
+------------------ OSL VERSION ------------------
+osldir = /imaging/hp02/software_n_scripts/OSL/osl
+
+osl = 2017Dec14
+osl-core = 9e28027
+ohba-external = 59cb12f
+GLEAN = 1291321
+MEG-ROI-nets = 3abfd07
+HMM-MAR = b9b476d
+
+------------------ SYSTEM INFORMATION ------------------
+Platform: GLNXA64 (maxsize=281474976710655)
+OS: Linux 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64
+Java 1.7.0_60-b19 with Oracle Corporation Java HotSpot(TM) 64-Bit Server VM mixed mode
+Java support: jvm awt swing desktop 
+Monitor(s): [1 1 1300 800] (24bit)
+OpenGL version: 2.1 Mesa 7.2(Software)
+OpenGL renderer: Brian Paul (Mesa X11)
+MEX extension: mexa64
+C Compiler: gcc ().
+C Compiler settings: /usr/bin/gcc ('-O -DNDEBUG')
+
+------------------ MATLAB VERSION ------------------
+Matlab version: 8.5.0.197613 (R2015a)
+Matlab location: /hpc-software/matlab/r2015a
+Aerospace Blockset - 3.15
+Aerospace Toolbox - 2.15
+Antenna Toolbox - 1.0
+Bioinformatics Toolbox - 4.5.1
+Communications System Toolbox - 6.0
+Computer Vision System Toolbox - 6.2
+Control System Toolbox - 9.9
+Curve Fitting Toolbox - 3.5.1
+DSP System Toolbox - 9.0
+Database Toolbox - 5.2.1
+Datafeed Toolbox - 5.1
+Econometrics Toolbox - 3.2
+Embedded Coder - 6.8
+FastICA for Matlab 7.x and 6.x - 2.5,
+FieldTrip - unknown
+Filter Design HDL Coder - 2.9.7
+Financial Instruments Toolbox - 2.1
+Financial Toolbox - 5.5
+Fixed-Point Designer - 5.0
+Fuzzy Logic Toolbox - 2.2.21
+Global Optimization Toolbox - 3.3.1
+HDL Coder - 3.6
+HDL Verifier - 4.6
+Image Acquisition Toolbox - 4.9
+Image Processing Toolbox - 9.2
+Instrument Control Toolbox - 3.7
+LTE System Toolbox - 2.0
+MATLAB - 8.5
+MATLAB Coder - 2.8
+MATLAB Compiler - 6.0
+MATLAB Compiler SDK - 6.0
+MATLAB Distributed Computing Server - 6.6
+MATLAB Report Generator - 4.1
+Mapping Toolbox - 4.1
+Model Predictive Control Toolbox - 5.0.1
+Neural Network Toolbox - 8.3
+Optimization Toolbox - 7.2
+Parallel Computing Toolbox - 6.6
+Partial Differential Equation Toolbox - 2.0
+Phased Array System Toolbox - 3.0
+Polyspace Bug Finder - 1.3
+Polyspace Code Prover - 9.3
+RF Toolbox - 2.16
+Robotics System Toolbox - 1.0
+Robust Control Toolbox - 5.3
+Signal Processing Toolbox - 7.0
+SimBiology - 5.2
+SimDriveline - 2.8
+SimElectronics - 2.7
+SimEvents - 4.4
+SimHydraulics - 1.16
+SimMechanics - 4.6
+SimPowerSystems - 6.3
+SimRF - 4.4
+Simscape - 3.13
+Simulink - 8.5
+Simulink 3D Animation - 7.3
+Simulink Code Inspector - 2.3
+Simulink Coder - 8.8
+Simulink Control Design - 4.2
+Simulink Design Optimization - 2.7
+Simulink Design Verifier - 2.8
+Simulink Report Generator - 4.1
+Simulink Test - 1.0
+Simulink Verification and Validation - 3.9
+Stateflow - 8.5
+Statistical Parametric Mapping - 6906
+Statistics and Machine Learning Toolbox - 10.0
+Symbolic Math Toolbox - 6.2
+System Identification Toolbox - 9.2
+SystemTest - 2.6.9
+Vision HDL Toolbox - 1.0
+Wavelet Toolbox - 4.14.1
+Yokogawa MEG Reader toolbox for MATLAB - 1.04.01
+PASS - Matlab version is supported
+
+------------------ DIRECTORY STRUCTURE ------------------
+Located: /imaging/hp02/software_n_scripts/OSL/osl/osl-core
+Located: /imaging/hp02/software_n_scripts/OSL/osl/spm12
+Located: /imaging/hp02/software_n_scripts/OSL/osl/GLEAN
+Located: /imaging/hp02/software_n_scripts/OSL/osl/HMM-MAR
+Located: /imaging/hp02/software_n_scripts/OSL/osl/layouts
+Located: /imaging/hp02/software_n_scripts/OSL/osl/MEG-ROI-nets
+Located: /imaging/hp02/software_n_scripts/OSL/osl/ohba-external
+Located: /imaging/hp02/software_n_scripts/OSL/osl/example_data
+Located: /imaging/hp02/software_n_scripts/OSL/osl/parcellations
+Located: /imaging/hp02/software_n_scripts/OSL/osl/std_masks
+
+------------------ NIFTI TOOLS ------------------
+PASS - nii.load
+PASS - nii.save
+
+------------------ FSL ------------------
+FSLDIR: /imaging/local/software/fsl/v5.0.10/x86_64/fsl
+PASS - fslval
+PASS - fslmaths
+/imaging/local/software/fsl/v5.0.10/x86_64/fsl/bin/fslview_deprecated
+PASS - fslview. Check that fslview window has appeared
+
+------------------ SPM ------------------
+SPM is installed in: /imaging/hp02/software_n_scripts/OSL/osl/spm12
+SPM version is SPM12 (6906, 20 Oct 16)
+
+------------------ FIELDTRIP ------------------
+PASS - ft_getopt()
+
+------------------ FOLDER PERMISSIONS ------------------
+PASS - SPMDIR is writable
+PASS - osl.conf is writable
+
+------------------ MAC OS XQUARTZ ------------------
+PASS - Not required on this system
